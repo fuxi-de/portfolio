@@ -1,6 +1,6 @@
 <template>
   <div class="cv">
-    <Table />
+    <Table :parentData="jobs" />
   </div>
 </template>
 
@@ -13,13 +13,18 @@ export default {
   },
   data() {
     return {
-
+      jobs: [
+        { employer: 'havas', date: 2017 }
+      ]
     }
   },
-  methods: {
-  }
+  methods: {}
 }
 </script>
 
 <style lang="scss">
+.cv {
+  max-width: 75%;
+  margin:auto;
+}
 </style>
