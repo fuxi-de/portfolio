@@ -14,7 +14,8 @@ export default {
   data() {
     return {
       jobs: [
-        { employer: 'havas', date: 2017 }
+        { employer: 'havas', date: 2017 },
+        { employer: 'qug', date: 2016 }
       ]
     }
   },
@@ -26,5 +27,6 @@ export default {
 .cv {
   max-width: 75%;
   margin:auto;
+  background:white;
 }
 </style>
