@@ -1,9 +1,9 @@
 <template>
   <div class="aboutme">
     <p class="intro">{{ aboutMe }}</p>
-    <p>This is a small list of technologies i've worked with and liked:</p>
+    <p>This is a small list of technologies i've enjoyed working with:</p>
     <ul class="techlist">
-      <li v-for="item in iLike">{{ item }}</li>
+      <li v-for="(item, index) in iLike" v-bind:key="index">{{ item }}</li>
     </ul>
   </div>
 </template>
@@ -14,10 +14,11 @@ export default {
   data() {
     return {
       aboutMe:
-        "I am 26 years of age and was born in the ruhrgbiet area. Besides playing around with code I like to kitesurf at the german shores.",
+        "I am 26 years of age and was born in the ruhrgbiet area. I like tinkering around with code and flying kites at the german shores!",
       iLike: [
         "php",
         "laravel",
+        "mysql",
         "vue",
         "scss",
         "express",

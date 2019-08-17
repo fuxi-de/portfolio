@@ -3,6 +3,7 @@
     <Keyvisual />
     <AboutMe />
     <CV />
+    <Footer />
   </Layout>
 </template>
 
@@ -10,15 +11,17 @@
 import Keyvisual from "~/components/Keyvisual"
 import CV from "~/components/CV"
 import AboutMe from "~/components/AboutMe"
+import Footer from "~/components/Footer"
 
 export default {
   metaInfo: {
-    title: "Hello, world!"
+    title: "Moin, world!"
   },
   components: {
     Keyvisual,
     CV,
-    AboutMe
+    AboutMe,
+    Footer
   }
 }
 </script>

@@ -20,20 +20,22 @@ export default {
 <style lang="scss">
 .table-element {
   font-family: "Red Hat Display", sans-serif;
+  padding-bottom: 50px;
   .row {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.1fr;
   }
   &-header {
     font-size: 1.3em;
     font-weight: bold;
     text-align: right;
-    padding: 15px;
+    padding: 10px;
+    color: #725ac1;
   }
   &-content {
     font-size: 1.3em;
     font-weight: lighter;
-    padding: 15px;
+    padding: 10px;
   }
 }
 </style>

@@ -9,7 +9,6 @@
       </span>
       <span class="about">{{ about }}</span>
     </div>
-    <button @click="onClick">Change</button>
   </div>
 </template>
 
@@ -21,11 +20,6 @@ export default {
       name: "Flo",
       about:
         "I am a Fullstack Webdeveloper currently living and working in Hamburg, Germany"
-    }
-  },
-  methods: {
-    onClick() {
-      this.name = "Here you go :)"
     }
   }
 }
