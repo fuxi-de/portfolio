@@ -76,5 +76,6 @@ export default {
   }
   margin: auto;
   background: white;
+  padding-bottom:100px;
 }
 </style>

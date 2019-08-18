@@ -20,6 +20,5 @@ export default {
     width:100%;
     height:30vh;
     background:#3F4045;
-    margin-top:100px;
 }
 </style>
