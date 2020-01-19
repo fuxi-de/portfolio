@@ -19,7 +19,7 @@ export default {
     return {
       name: "Flo",
       about:
-        "I am a Fullstack Webdeveloper currently living and working in Hamburg, Germany"
+        "I am a Software Engineer currently living and working in Hamburg, Germany"
     }
   }
 }

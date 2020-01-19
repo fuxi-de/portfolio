@@ -14,7 +14,7 @@ export default {
   data() {
     return {
       aboutMe:
-        "I am 26 years of age and was born in the ruhrgbiet area. I like tinkering around with code and flying kites at the german shores!",
+        "I am 27 years of age and was born in the ruhrgbiet area. I like tinkering around with code and flying kites at the german shores!",
       iLike: [
         "php",
         "laravel",
@@ -22,7 +22,7 @@ export default {
         "vue",
         "scss",
         "express",
-        "js",
+        "javascript",
         "node",
         "ts",
         "wordpress",
