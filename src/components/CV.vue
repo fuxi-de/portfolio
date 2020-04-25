@@ -1,7 +1,7 @@
 <template>
   <div class="cv">
-    <div class="inner-wrapper">
-      <p class="intro">This is where I have worked so far:</p>
+    <div class="inner-wrapper w-9/12 m-auto">
+      <p class="intro w-1/2 m-auto mb-8">This is where I have worked so far:</p>
       <Table :parentData="jobs" />
     </div>
   </div>
@@ -62,17 +62,10 @@ export default {
 
 <style lang="scss">
 .cv {
-  .inner-wrapper {
-    max-width: 75%;
-    margin: auto;
-  }
   .intro {
-    width: 50%;
     text-align: center;
     font-family: "Red Hat Display", sans-serif;
     font-size: 1.5em;
-    margin: auto;
-    margin-bottom: 50px;
   }
   margin: auto;
   background: white;
