@@ -1,7 +1,7 @@
 <template>
   <div class="table m-auto">
-    <div v-for="(item, index) in parentData" v-bind:key="index" class="table-element">
-      <div v-for="(value, name) in item" v-bind:key="name" class="row">
+    <div v-for="(item, index) in parentData" :key="index" class="table-element">
+      <div v-for="(value, name) in item" :key="name" class="row">
         <div class="table-element-header">{{ name }}</div>
         <div class="table-element-content">{{ value }}</div>
       </div>

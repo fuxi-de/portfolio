@@ -1,13 +1,15 @@
 <template>
   <div class="keyvisual">
-    <!-- <g-image src="~/images/tracy-adams.jpg" width="500"/> -->
     <div class="intro">
-      <span class="greeting">
-        Hi, my Name is
-        <span class="name">{{ name }}</span>
-        !
-      </span>
-      <span class="about">{{ about }}</span>
+      <div class="flex flex-row items-center justify-center">
+        <span class="greeting m-2 text-6xl self-end">
+          Hi, my Name is
+          <span class="name">{{ name }}</span>
+          !
+        </span>
+        <g-image class="m-2" src="~/assets/flo.svg" width="300" />
+      </div>
+      <span class="about text-3xl">{{ about }}</span>
     </div>
   </div>
 </template>
@@ -19,10 +21,10 @@ export default {
     return {
       name: "Flo",
       about:
-        "I am a Software Engineer currently living and working in Hamburg, Germany"
-    }
-  }
-}
+        "I am a Software Engineer currently living and working in Hamburg, Germany",
+    };
+  },
+};
 </script>
 
 <style lang="scss">
@@ -31,15 +33,14 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  position:fixed;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  z-index:-1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
   .greeting {
     font-family: "Lacquer", sans-serif;
-    font-size: 4em;
     display: block;
     text-align: center;
     .name {
@@ -49,7 +50,6 @@ export default {
   }
   .about {
     font-family: "Lacquer", sans-serif;
-    font-size: 1.5em;
     display: block;
     text-align: center;
   }

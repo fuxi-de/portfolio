@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div class="footer h-40">
     
   </div>
 </template>
@@ -18,7 +18,6 @@ export default {
 <style lang="scss">
 .footer{
     width:100%;
-    height:30vh;
     background:#3F4045;
 }
 </style>
