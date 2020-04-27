@@ -2,7 +2,7 @@
   <div class="aboutme">
     <p class="intro">{{ aboutMe }}</p>
     <p class="mb-8">This is a small list of technologies i've enjoyed working with:</p>
-    <ul class="techlist flex w-9/12 justify-center">
+    <ul class="techlist flex flex-row flex-wrap w-9/12 justify-center">
       <li class="m-2" v-for="(item, index) in iLike" v-bind:key="index">{{ item }}</li>
     </ul>
   </div>
