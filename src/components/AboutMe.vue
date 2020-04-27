@@ -1,6 +1,6 @@
 <template>
   <div class="aboutme">
-    <div class="md:w-9/12 mb-32 mt-32 flex flex-col md:flex-row items-center justify-around">
+    <div class="md:w-9/12 mb-32 mt-40 flex flex-col md:flex-row items-center justify-around">
       <p class="w-11/12 md:w-1/2 mb-16 md:mb-0">{{ aboutMe }}</p>
       <g-image src="~/assets/surfer.svg" width="350" />
     </div>

@@ -2,14 +2,13 @@
   <div class="keyvisual">
     <div class="intro">
       <div class="flex flex-row items-center justify-center">
-        <span class="greeting m-2 text-6xl self-end">
-          Hi, my Name is
-          <span class="name">{{ name }}</span>
-          !
+        <span class="greeting m-2 text-5xl self-end">
+          Hi,my Name is
+          <span class="name">{{ name }}</span>!
         </span>
         <g-image class="m-2 hidden md:block" src="~/assets/flo.svg" width="300" />
       </div>
-      <span class="about text-3xl">{{ about }}</span>
+      <span class="about text-l">{{ about }}</span>
     </div>
   </div>
 </template>
@@ -40,7 +39,7 @@ export default {
   right: 0;
   z-index: -1;
   .greeting {
-    font-family: "Lacquer", sans-serif;
+    font-family: "Press Start 2P", sans-serif;
     display: block;
     text-align: center;
     .name {
@@ -49,7 +48,7 @@ export default {
     }
   }
   .about {
-    font-family: "Lacquer", sans-serif;
+    font-family: "Press Start 2P", sans-serif;
     display: block;
     text-align: center;
   }
