@@ -1,19 +1,19 @@
 <template>
   <div class="aboutme">
-    <div class="w-9/12 mb-32 mt-32 flex flex-row items-center justify-around">
-      <p class="intro">{{ aboutMe }}</p>
+    <div class="md:w-9/12 mb-32 mt-32 flex flex-col md:flex-row items-center justify-around">
+      <p class="w-11/12 md:w-1/2 mb-16 md:mb-0">{{ aboutMe }}</p>
       <g-image src="~/assets/surfer.svg" width="350" />
     </div>
-    <p class="mb-8">
-      This is a small list of technologies i've enjoyed working with:
+    <p class="w-11/12 text-center mb-8">
+      This is a small (uncomplete) list of technologies i've enjoyed working with:
     </p>
     <ul class="techlist mb-48 flex flex-row flex-wrap w-9/12 justify-center">
       <li class="m-2" v-for="(item, index) in iLike" :key="index">
         {{ item }}
       </li>
     </ul>
-    <div class="w-9/12 mb-32 flex flex-row items-center justify-around">
-      <g-image src="~/assets/flo_git.svg" width="350" />
+    <div class="w-9/12 mb-32 flex flex-col md:flex-row items-center justify-around">
+      <g-image class="mb-16 md:mb-0" src="~/assets/flo_git.svg" width="350" />
       <div>
         <p>follow me on these platforms if you like:</p>
         <ul class="linklist">
@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       aboutMe:
-        "I am 27 years of age and was born in the ruhrgebiet area. My passion is tinkering around with code and ideally creating value throughout the whole development lifecycle. In my freetime I am also flying kites at the german shores!",
+        "I am 27 years of age and was born in the ruhrgebiet area. My passion is tinkering around with code and ideally creating value throughout the whole development lifecycle. I highly believe in finding and using the right tool for the job rather then relying on the same set of tools for all purposes. In my freetime I am also flying kites at the german shores!",
       iLike: [
         "express",
         "javascript",
@@ -86,10 +86,6 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  .intro {
-    width: 50%;
-    text-align: left;
-  }
   .techlist {
     list-style: none;
     li {

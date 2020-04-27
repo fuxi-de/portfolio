@@ -61,13 +61,12 @@ export default {
 </script>
 
 <style lang="scss">
-.cv {
+.cv { 
   .intro {
     text-align: center;
     font-family: "Red Hat Display", sans-serif;
     font-size: 1.5em;
   }
-  margin: auto;
   background: white;
   padding-bottom:100px;
 }

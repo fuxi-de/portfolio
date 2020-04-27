@@ -1,23 +1,20 @@
 <template>
-  <div class="footer h-40">
-    
-  </div>
+  <div class="footer h-40"></div>
 </template>
 
 <script>
 export default {
   name: "Footer",
   data() {
-    return {
-     
-    }
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <style lang="scss">
-.footer{
-    width:100%;
-    background:#3F4045;
+.footer {
+  box-shadow: 0 -24px 24px rgba(150, 150, 150, 0.22);
+  width: 100%;
+  background: #3f4045;
 }
 </style>

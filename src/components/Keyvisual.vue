@@ -7,7 +7,7 @@
           <span class="name">{{ name }}</span>
           !
         </span>
-        <g-image class="m-2" src="~/assets/flo.svg" width="300" />
+        <g-image class="m-2 hidden md:block" src="~/assets/flo.svg" width="300" />
       </div>
       <span class="about text-3xl">{{ about }}</span>
     </div>
