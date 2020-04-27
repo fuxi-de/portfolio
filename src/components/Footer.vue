@@ -1,6 +1,7 @@
 <template>
-  <div class="footer h-40 flex items-center justify-center text-xl">
+  <div class="footer h-40 flex flex-col items-center justify-center text-xl">
     <span>© {{ new Date().getFullYear() }} Florian Schildwächter</span>
+    <a target="_blank" href="https://icons8.com">Favicon by Icons8</a>
   </div>
 </template>
 
