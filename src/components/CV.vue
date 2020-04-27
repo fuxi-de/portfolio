@@ -1,7 +1,7 @@
 <template>
   <div class="cv">
     <div class="inner-wrapper w-9/12 m-auto pt-32">
-      <p class="intro w-1/2 m-auto mb-8">My skills are proudly presented by these current and previous employers:</p>
+      <p class="intro md:w-1/2 m-auto mb-8">My skills are proudly presented by these current and previous employers:</p>
       <Table :parentData="jobs" />
     </div>
   </div>
