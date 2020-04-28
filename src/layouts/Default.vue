@@ -22,6 +22,17 @@ query {
 </static-query>
 
 <style lang="scss">
+@font-face {
+  font-family: "Press Start 2P";
+  src: url("../assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("../assets/fonts/Red_Hat_Display/RedHatDisplay-Regular.ttf");
+  font-weight: normal;
+}
+
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
