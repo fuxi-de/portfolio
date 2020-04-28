@@ -5,7 +5,7 @@
       <g-image src="~/assets/kitesurfing.svg" width="350" />
     </div>
     <p class="w-11/12 text-center mb-8">
-      This is a small (uncomplete) list of technologies i've enjoyed working with:
+      This is a small (incomplete) list of technologies i've enjoyed working with:
     </p>
     <ul class="techlist mb-48 flex flex-row flex-wrap w-9/12 justify-center">
       <li class="m-2" v-for="(item, index) in iLike" :key="index">
