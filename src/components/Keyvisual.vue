@@ -6,7 +6,7 @@
           Hi,my Name is
           <span class="name">{{ name }}</span>!
         </span>
-        <g-image class="m-2 hidden md:block" src="~/assets/flo.svg" width="300" />
+        <g-image class="m-2 hidden md:block" src="~/assets/office.svg" width="300" />
       </div>
       <span class="about text-l">{{ about }}</span>
     </div>

@@ -2,7 +2,7 @@
   <div class="aboutme">
     <div class="md:w-9/12 mb-32 mt-40 flex flex-col md:flex-row items-center justify-around">
       <p class="w-11/12 md:w-1/2 mb-16">{{ aboutMe }}</p>
-      <g-image src="~/assets/surfer.svg" width="350" />
+      <g-image src="~/assets/kitesurfing.svg" width="350" />
     </div>
     <p class="w-11/12 text-center mb-8">
       This is a small (uncomplete) list of technologies i've enjoyed working with:
@@ -13,7 +13,7 @@
       </li>
     </ul>
     <div class="w-9/12 mb-32 flex flex-col md:flex-row items-center justify-around">
-      <g-image class="mb-16 md:mb-0" src="~/assets/flo_git.svg" width="350" />
+      <g-image class="mb-16 md:mb-0" src="~/assets/networking.svg" width="350" />
       <div>
         <p>follow me on these platforms if you like:</p>
         <ul class="linklist">
