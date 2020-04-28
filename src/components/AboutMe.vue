@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       aboutMe:
-        "I am 27 years of age and was born in the ruhrgebiet area. My passion is tinkering around with code and ideally creating value throughout the whole development lifecycle. I highly believe in finding and using the right tool for the job rather then relying on the same set of tools for all purposes. In my freetime I am also flying kites at the german shores!",
+        "I am 27 years of age and was born in the Ruhrgebiet area. My passion is tinkering around with code and ideally creating value throughout the whole development lifecycle. I highly believe in finding and using the right tool for the job rather then relying on the same set of tools for all purposes. In my freetime I am also flying kites at the german shores!",
       iLike: [
         "express",
         "javascript",

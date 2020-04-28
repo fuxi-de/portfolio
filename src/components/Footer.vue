@@ -1,6 +1,8 @@
 <template>
-  <div class="footer h-40 flex flex-col items-center justify-center text-xl">
+  <div class="footer h-56 flex flex-col items-center justify-center text-xl">
     <span>© {{ new Date().getFullYear() }} Florian Schildwächter</span>
+    <span>Maria-Louisen-Straße 100, 22301 Hamburg</span>
+    <a href="mailto:florian.schildwaechter@gmail.com">florian.schildwaechter[at]gmail.com</a>
     <a target="_blank" href="https://icons8.com">Favicon by Icons8</a>
   </div>
 </template>
