@@ -1,7 +1,7 @@
 <template>
   <div class="aboutme">
     <div class="md:w-9/12 mb-32 mt-40 flex flex-col md:flex-row items-center justify-around">
-      <p class="w-11/12 md:w-1/2 mb-16">{{ aboutMe }}</p>
+      <p class="w-11/12 md:w-1/2 mb-16 md:mb-0">{{ aboutMe }}</p>
       <g-image src="~/assets/kitesurfing.svg" width="350" />
     </div>
     <p class="w-11/12 text-center mb-8">
@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       aboutMe:
-        "I am 27 years of age and was born in the Ruhrgebiet area. My passion is tinkering around with code and ideally creating value throughout the whole development lifecycle. I highly believe in finding and using the right tool for the job rather then relying on the same set of tools for all purposes. In my freetime I am also flying kites at the german shores!",
+        "I am 27 years of age and was born in the Ruhrgebiet area. Tinkering around with code and ideally creating value throughout the whole development lifecycle is my passion and I am a strong believer in open source. I highly believe in finding and using the right tool for the job rather then relying on the same set of tools for all purposes. In my freetime I am also flying kites at the german shores!",
       iLike: [
         "express",
         "javascript",
